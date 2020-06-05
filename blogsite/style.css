@@ -442,3 +442,35 @@ footer.mainfooter {
 ul li fa-2x {
   color: white;
 }
+li#recent-posts-2  ul li ,.wrappers ul li ul li {
+  padding: 12px 0;
+    margin-bottom: 12px;
+    padding-top: 0;
+    border-bottom: 1px solid #ebebeb;
+}
+h5.widget-title{
+  text-align: center;
+}
+hr{
+  margin-bottom: 0px!important;
+  margin-top: 0px!important;
+}
+marquee{
+  background-color: #ff6c0c;
+  color: white;
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: -6px
+}
+.gmail a{
+  color: white!important;
+}
+.page-item.active .page-link{
+  background-color: #ff6c0c!important;
+  border-color: #ff6c0c!important;
+  color: white;
+}
+span.page-link,a.page-link{
+  color: #ff6c0c;
+}
+/***********************************************/
