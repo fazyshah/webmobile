@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div id="quizQuestion" class="container">
+            <img src="Saylani-logo.png" alt=""><br><h3>Saylani invention<br>Quiz App 2020</h3>
+            <div class="title">Millionaires of Pakistan 
+            </div>
+            <div id="question" class="question">
+            </div>
+            <table>
+                <tr><td><label class="option"><input type="radio" name="knowledge_question"  value="1"><span id="opt1"></span></label><br></td></tr>
+                <tr><td><label class="option"><input type="radio" name="knowledge_question"   value="2"><span id="opt2"></span></label><br></td></tr>
+                <tr><td><label class="option"><input type="radio" name="knowledge_question"   value="3"><span id="opt3"></label><br></td></tr>
+                <tr><td><label class="option"><input type="radio" name="knowledge_question"   value="4"><span id="opt4"></span></label><br></td></tr>
+            </table>
+            <button id="nextButton" class="next-btn" onclick="LoadNextQuestion();">Next Question</button>
+                
+        </div>
+        <div id="result" class="container-result" >
+            
+            <p style="display: none;"></p><br>
+        </div>
+    </div>
+
+
+</body>
+<script src="app.js"></script>
+</html>
+
+
